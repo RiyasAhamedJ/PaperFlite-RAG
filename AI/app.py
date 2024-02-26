@@ -14,10 +14,10 @@ def reset_state():
 
 # Get the API key from the environment variables or the user
 
-secrets_path = r".\secrets.toml"
-with open(secrets_path, "r") as f:
-    config = toml.load(f)
-api_key = config["api-key"]
+# secrets_path = r".\secrets.toml"
+# with open(secrets_path, "r") as f:
+#     config = toml.load(f)
+api_key = "KJ9jag8de6eq8RyenCvYpGlYS2WY3KED"
 
 if not api_key:
     if "api_key" not in st.session_state:
