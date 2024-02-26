@@ -5,7 +5,7 @@ import os
 from fuzzywuzzy import fuzz
 import toml
 
-st.title("Paperflite Mistral Chat")
+st.title("Paperflite Chatbot")
 
 # Function to reset the state
 def reset_state():
